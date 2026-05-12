@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class reverseInteger {
 
-    //TODO: create a negative value check
+
     public static int checkReverser(int x){
         int flag=1;
         if (x<0){
