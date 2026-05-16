@@ -1,7 +1,5 @@
 package knowBasicRecursion;
 
-import net.sf.saxon.functions.ConstantFunction;
-
 public class StringPalindrome {
     public static boolean isPalindrome(String s) {
 

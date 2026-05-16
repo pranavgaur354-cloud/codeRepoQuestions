@@ -4,11 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Count {
-    public static Map<Integer, Integer> countElementsInArray(int[] n) {
-        Map<Integer, Integer> arr = new HashMap<>();
-        for (int j : n) {
-            arr.merge(j, 1, Integer::sum);
+    public static Map<Integer, Integer> countElementsInArray(int[] arr) {
+        Map<Integer, Integer> counts = new HashMap<>();
+        for (int x : arr) {
+            counts.merge(x, 1, Integer::sum);
         }
-        return arr;
+        return counts;
     }
 }
